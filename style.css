@@ -1,0 +1,76 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('clouds.jpg');
+    height:100vh;
+    overflow:hidden;
+    background-repeat: no-repeat;
+    background-position:top center;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main{
+    width:50vh;
+    margin:100px auto;
+    background-color: rgba(240,240,250,0.5);
+    padding:15px;
+    text-align: center;
+}
+
+.search{
+    margin-bottom:20px;
+}
+
+.inputbox{
+    border: none;
+    width:100%;
+    background-color: rgba(240,240,250,0.5);
+    outline:none;
+    caret-color: blue;
+    color:rgb(13, 88, 226);
+    font-size:1.2rem;
+    height:40px;
+    border-radius:35px;
+    padding:20px;
+    text-align: center;
+}
+.inputbox:hover{
+    background-color:rgba(240,240,250)
+}
+
+.wbody{
+    color: #0d248d;
+    padding:20px;
+    line-height: 2rem;
+    border-radius: 15px;
+    background-color:rgba(240, 240, 250,0.8);
+    height:50vh;
+
+}
+
+.location-details{
+font-weight: bold;
+}
+
+.wstatus{
+    padding:22px;
+}
+
+.temp{
+    font-size: 50pt;
+    font-weight: bolder;
+    margin:20px;
+    text-shadow:2px 4px rgba(0,0,0,0.3);
+}
+
+.min-max,.weather{
+    font-size:12pt;
+    font-weight:600;
+
+}
